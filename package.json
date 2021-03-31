@@ -1,0 +1,20 @@
+{
+  "name": "smoothosu",
+  "version": "1.0.0",
+  "description": "Make your osu cursors smooth!",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "smoothosu": "./index.js"
+  },
+  "author": "Cyrus Yip",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "indent-string": "^4.0.0",
+    "prompt": "^1.1.0",
+    "sharp": "^0.28.0"
+  }
+}
