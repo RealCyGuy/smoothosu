@@ -1,6 +1,8 @@
 # smoothosu
 
-> Make your osu! cursor trails smooth!
+> Make your osu! cursor trails smooth! 
+
+You can see an example of it in-game here: https://youtu.be/b-JEryD5d3s
 
 ## Requirements
 
