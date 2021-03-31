@@ -6,7 +6,8 @@ const boxen = require("boxen");
 const indentString = require("indent-string");
 const chalk = require("chalk");
 const prompt = require("prompt");
-const version = require('./package.json');
+const version = require("./package.json");
+const fs = require("fs");
 
 program
   .version(version.version, "-v --version")
@@ -48,7 +49,11 @@ program
           image
             .metadata()
             .then((metadata) => {
-              image.resize(Math.round(metadata.width / 2)).toFile(file);
+              let buffer = image
+                .resize(Math.round(metadata.width / 2))
+                .toBuffer(function (err, buffer) {
+                  fs.writeFile(file, buffer, function (e) {});
+                });
               console.log(
                 chalk.green("Success: Replaced file ") + "(" + file + ")"
               );
