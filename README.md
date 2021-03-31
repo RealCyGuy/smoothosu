@@ -16,7 +16,9 @@ npm i -g smoothosu
 
 ## Usage
 
-After duplicating a osu skin folder, change the working directory to it.
+> It is recommended to duplicate your skin's folder so your skin won't be destroyed if something goes wrong and you will keep your original skin.
+
+Change the working directory to the skin you want to make smooth. This folder can be found by clicking `Open current skin folder` in the settings.
 
 ```shell
 cd /path/to/skin/folder
@@ -34,4 +36,4 @@ When the confirmation appears, enter `y` if you want to continue.
 prompt: Do you want to continue? [y]es/[n]o:  y
 ```
 
-In osu, set your cursor size to 2x and now you have a smooth cursor!
+In osu, press `ctrl + shift + alt + s` to refresh your skin if neccesary. Then, set your cursor size to 2x (optional, but it's the default cursor size) and now you have a smooth cursor!
