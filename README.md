@@ -1,6 +1,6 @@
 # smoothosu
 
-> Make your osu cursors smooth!
+> Make your osu! cursor trails smooth!
 
 ## Requirements
 
