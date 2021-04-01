@@ -20,7 +20,7 @@ npm i -g smoothosu
 
 > It is recommended to duplicate your skin's folder so your skin won't be destroyed if something goes wrong and you will keep your original skin.
 
-Change the working directory to the skin you want to make smooth. This folder can be found by clicking `Open current skin folder` in the settings.
+Change the working directory to the skin you want to make smooth. This folder can be found by clicking `Open current skin folder` in the settings. To change to the directory use this command a terminal replacing `/path/to/skin/folder` with... the path to your skin folder.
 
 ```shell
 cd /path/to/skin/folder
