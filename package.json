@@ -3,7 +3,9 @@
   "version": "1.0.2",
   "description": "Make your osu cursors smooth!",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
   "bin": {
     "smoothosu": "./index.js"
   },
