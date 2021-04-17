@@ -6,16 +6,18 @@ const boxen = require("boxen");
 const indentString = require("indent-string");
 const chalk = require("chalk");
 const prompt = require("prompt");
-const version = require("./package.json");
+const pkg = require("./package.json");
 const fs = require("fs");
+const updateNotifier = require("update-notifier");
 
 program
-  .version(version.version, "-v --version")
+  .version(pkg.version, "-v --version")
   .description("Make osu skin have a smooth cursor.")
   .action(function () {
+    updateNotifier({ pkg }).notify();
     sharp.cache(false);
     const box = boxen(
-      "smoothosu v" + version.version + "\n" + chalk.green("by cyrus yip"),
+      "smoothosu v" + pkg.version + "\n" + chalk.green("by cyrus yip"),
       {
         padding: 2,
         align: "center",
