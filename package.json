@@ -1,6 +1,6 @@
 {
   "name": "smoothosu",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Make your osu! cursor trails smooth!",
   "main": "index.js",
   "scripts": {
