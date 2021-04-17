@@ -14,10 +14,13 @@ program
   .description("Make osu skin have a smooth cursor.")
   .action(function () {
     sharp.cache(false);
-    const box = boxen("smoothosu\n" + chalk.green("by cyrus yip"), {
-      padding: 2,
-      align: "center",
-    });
+    const box = boxen(
+      "smoothosu v" + version.version + "\n" + chalk.green("by cyrus yip"),
+      {
+        padding: 2,
+        align: "center",
+      }
+    );
     console.log(
       indentString(
         box,
